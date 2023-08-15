@@ -1,0 +1,86 @@
+body {
+  background: #dbcabe;
+  color: #525252;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  font-weight: light;
+}
+
+h1,
+h2 {
+  font-family: 'Abel', sans-serif;
+}
+
+h1 {
+  color: #525252;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #525252;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+a {
+  font-family: 'Abel', sans-serif;
+  text-decoration: none;
+  color: #0e18d3;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: rgb(56, 47, 38);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  box-shadow: 0px 10px 50px rgba(44, 29, 1, 0.1);
+  border-radius: 7px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.profilephoto {
+  border-radius: 50%;
+}
+
+.list-inline>li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
