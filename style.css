@@ -1,5 +1,5 @@
 body {
-  background: #dbcabe;
+  background: #f5e6e1;
   color: #525252;
   font-family: 'Abel', sans-serif;
   font-size: 20px;
@@ -36,7 +36,7 @@ a:hover {
 }
 
 .container {
-  width: 500px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -65,6 +65,20 @@ a:hover {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+#screenshot {
+  max-width: 100px;
+  cursor: pointer;
+  transition: max-width 0.3s ease;
+}
+
+#screenshot.enlarged {
+  max-width: 300px;
 }
 
 @media (max-width: 960px) {
